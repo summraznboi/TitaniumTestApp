@@ -1,0 +1,10 @@
+"#map": {
+	animate: true,
+	regionFit: true,
+	userLocation: true,
+	titleImage: "images/car.png"
+},
+"#mapIndicator": {
+	message: "Loading...",
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.DARK
+}

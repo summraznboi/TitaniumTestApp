@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="login" tabBarHidden="true" class="container">
+		<TextField id="username" />
+		<TextField id="password" />
+		<Button id="signon" title="Login" />
+	</Window>
+</Alloy>

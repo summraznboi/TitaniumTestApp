@@ -1,0 +1,16 @@
+"TextField": {
+	borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	color:"#336699",
+	autocapitalization: false,
+	autocorrect: false,
+	width:200,
+	height:40
+},
+"#username": {
+	hintText: "Username"
+},
+"#password": {
+	hintText: "Password",
+	clearOnEdit: true,
+	passwordMask: true
+}

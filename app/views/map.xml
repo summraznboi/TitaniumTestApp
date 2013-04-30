@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="map" class="container">
+		<ActivityIndicator id="mapIndicator" />
+		<View id="main" ns="Ti.Map" mapType="Ti.Map.HYBRID_TYPE" />
+		<Toolbar id="bottom" platform="ios">
+            <Items>
+            	<FlexSpace />
+                <Button id="refocus" title="Refocus" style="Ti.UI.iPhone.SystemButtonStyle.BORDERED" />
+                <FlexSpace />
+                <Button id="logout" title="Logout" style="Ti.UI.iPhone.SystemButtonStyle.DONE" />
+            </Items>
+        </Toolbar>
+    </Window>
+</Alloy>

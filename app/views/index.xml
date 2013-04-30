@@ -1,0 +1,5 @@
+<Alloy>
+	<Require id="loginRequire" type="view" src="login" />
+	<Require id="mapRequire" type="view" src="map" />
+	<Require id="driverInfoRequire" type="view" src="driverInfo" />
+</Alloy>
